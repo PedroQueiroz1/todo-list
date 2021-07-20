@@ -13,7 +13,7 @@ import br.com.thebook.entity.TheBook;
 import br.com.thebook.service.TheBookService;
 
 @RestController
-@RequestMapping("TheBook")
+@RequestMapping("thebook-service")
 public class TheBookController {
 	
 //	@Autowired

@@ -17,7 +17,7 @@ import io.swagger.annotations.ApiOperation;
 
 @Api(tags = "Task")
 @RestController
-@RequestMapping("/task")
+@RequestMapping("thetask-service")
 public class TheTaskController {
 
 	@Autowired
