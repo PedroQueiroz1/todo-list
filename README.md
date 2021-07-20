@@ -26,6 +26,6 @@ Esse projeto faz uso das seguintes tecnologias:</br>
   <li>Eureka
   <li>Mysql
   <li>Api-gateway
-<ul>
+    <ul></br>
 *Ainda a ser implementado!---Comecei a estudar sobre microsserviços, então está algo bem amador
 <h4>Projeto em construção!</h4>
