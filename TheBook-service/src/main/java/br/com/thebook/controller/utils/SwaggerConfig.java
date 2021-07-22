@@ -1,4 +1,4 @@
-//package br.com.thelist.controller.utils;
+//package br.com.thebook.controller.utils;
 //
 //import org.springframework.context.annotation.Bean;
 //import org.springframework.context.annotation.Configuration;
@@ -18,16 +18,16 @@
 //	public Docket configuration() {
 //		return new Docket(DocumentationType.SWAGGER_2)
 //				.select()
-//				.apis(RequestHandlerSelectors.basePackage("br.com.thelist"))
+//				.apis(RequestHandlerSelectors.basePackage("br.com.thebook"))
 //				.build()
 //				.apiInfo(informationApi());
 //	}
 //
 //	private ApiInfo informationApi() {
 //		return new ApiInfoBuilder()
-//				.title("To-do List(WIP)")
-//				.description("To-do List System(WIP)")
-//				.version("v1.0.0")
+//				.title("TheBook API(WIP)")
+//				.description("TheBook System(WIP)")
+//				.version("v0.0.1")
 //				.build();
 //	}	
 //	

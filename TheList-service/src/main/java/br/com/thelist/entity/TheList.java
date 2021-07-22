@@ -8,6 +8,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name="list")
@@ -19,6 +20,7 @@ public class TheList {
 	private Long id;
 	
 	@Column(name="title", nullable = false, length = 50)
+	@NotBlank
 	private String title;
 	
 //	@Column(name="text")

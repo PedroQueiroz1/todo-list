@@ -1,0 +1,24 @@
+Actuator API-GATEWAY: http://localhost:8765/actuator 
+
+Actuator THELIST-SERVICE: http://localhost:8100/actuator
+
+Eureka: http://localhost:8761
+
+est-service(controller for tests): http://localhost:8100/est-service/est
+
+thetask-service:
+-http://localhost:8100/thetask-service/findAll
+-http://localhost:8100/thetask-service/1
+
+thelist-service:
+-http://localhost:8100/thelist-service/findAll
+-http://localhost:8100/thelist-service/1
+
+swagger-ui:
+
+task:
+http://localhost:8100/swagger-ui.html#/
+
+book:
+http://localhost:8000/swagger-ui.html#/
+

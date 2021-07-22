@@ -28,3 +28,7 @@ spring:
     schemas: thebook_db
     user: root
     password: root
+springdoc:
+  show-actuator: true
+  api-docs:
+    path: thebook-service/v3/api-docs

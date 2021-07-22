@@ -7,9 +7,25 @@ eureka:
 spring:
   application:
     name: api-gateway
-  #cloud:
-    #gateway:
-      #discovery:
-        #locator:
-          #enabled: true
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
           #lower-case-service-id: true
+     ### SUBSTITUTO PARA APIGATEWAYCONFIGURATION.JAVA ###
+      routes:
+      - id: thelist-service
+        uri: lb://thelist-service
+        predicates:
+        - Path=/thelist-service/**
+      - id: thebook-service
+        uri: lb://thebook-service
+        predicates:
+        - Path=/thebook-service/**
+      - id: openapi
+        uri: lb://api-gateway
+        predicates:
+        - Path=/v3/api-docs/**
+        filters:
+        - RewritePath=/v3/api-docs/(?<path>.*), /$\{path}/v3/api-docs  

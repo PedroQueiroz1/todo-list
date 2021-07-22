@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table(name="task")
@@ -21,12 +22,15 @@ public class TheTask {
 	private Long id;
 	
 	@Column(name="task", nullable = false, length=255)
+	@NotBlank
 	private String task;
 	
 	@Column(name="startdate",nullable = false, length=15)
+	@NotBlank
 	private String startDate;
 	
 	@Column(name="deadline",nullable = true, length=15)
+	@NotBlank
 	private String deadline;
 	
 	@ManyToOne
