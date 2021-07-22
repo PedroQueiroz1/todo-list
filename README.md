@@ -16,7 +16,7 @@ Esse projeto faz uso das seguintes tecnologias:</br>
 </br>
 <ul>
   <li>SwaggerUi + Swagger2
-  <li>Jaeger
+  <li>OpenApi (configuração comentada)
   <li>Actuator
   <li>Mysql
   <li>Flyway
