@@ -15,7 +15,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:</br>
 Esse projeto faz uso das seguintes tecnologias:</br>
 </br>
 <ul>
-  <li>~~Swagger~~ -> OpenApi
+  <li>''~~Swagger~~'' -> OpenApi
   <li>Actuator
   <li>Mysql
   <li>Flyway
