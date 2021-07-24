@@ -2,9 +2,9 @@
 
 <h1>Projeto de microsserviços REST com Spring</h1></br></br>
 
-<h1>To-do List</h1></br>
+<h2>To-do List</h2>
 
-<h2>Começando</h2>
+<h3>Começando</h3>
 Para executar o projeto, será necessário instalar os seguintes programas:</br>
 </br>
 <ul>
@@ -13,7 +13,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:</br>
 </ul>
 </br>
 
-<h2>Tecnologias</h2>
+<h3>Tecnologias</h3>
 Esse projeto faz uso das seguintes tecnologias:</br>
 </br>
 <ul>
