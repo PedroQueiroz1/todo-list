@@ -9,10 +9,10 @@
 		<version>2.5.2</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.one</groupId>
-	<artifactId>One-service</artifactId>
+	<groupId>br.com.thebook</groupId>
+	<artifactId>thebook-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>One-service</name>
+	<name>thebook-service</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -35,7 +35,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
-			<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-webmvc-core -->
+		<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-webmvc-core -->
 		<dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-webmvc-core</artifactId>
@@ -85,7 +85,18 @@
 		</dependency>
 		<!-- <dependency> <groupId>org.springframework.cloud</groupId> <artifactId>spring-cloud-starter-config</artifactId> 
 			</dependency> -->
-
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
