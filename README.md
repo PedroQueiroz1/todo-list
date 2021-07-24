@@ -15,8 +15,7 @@ Para executar o projeto, será necessário instalar os seguintes programas:</br>
 Esse projeto faz uso das seguintes tecnologias:</br>
 </br>
 <ul>
-  <li>SwaggerUi + Swagger2
-  <li>OpenApi (configuração comentada)
+  <li>OpenApiUI (Swagger)
   <li>Actuator
   <li>Mysql
   <li>Flyway
@@ -29,3 +28,4 @@ Esse projeto faz uso das seguintes tecnologias:</br>
     <ul></br>
 *Ainda a ser implementado!---Comecei a estudar sobre microsserviços, então está algo bem amador
 <h4>Projeto em construção!</h4>
+ 
