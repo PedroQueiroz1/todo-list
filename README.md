@@ -1,6 +1,8 @@
-<h1>To-do List</h1></br>
+[![Continuous Integration with Github](https://github.com/PedroQueiroz1/todo-list/actions/workflows/docker-publish.yml/badge.svg)](https://github.com/PedroQueiroz1/todo-list/actions/workflows/docker-publish.yml)
 
-Projeto API REST com Spring Boot</br></br>
+<h1>Projeto de microsserviços REST com Spring</h1></br></br>
+
+<h1>To-do List</h1></br>
 
 <h2>Começando</h2>
 Para executar o projeto, será necessário instalar os seguintes programas:</br>
