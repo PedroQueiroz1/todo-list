@@ -21,13 +21,14 @@ Esse projeto faz uso das seguintes tecnologias:</br>
   <li>Actuator
   <li>Mysql
   <li>Flyway
-  <li>Microsserviços*
+  <li>Microsserviços
   <li>Grafana*
   <li>Prometheus*
   <li>Eureka
   <li>Mysql
   <li>Api-gateway
     <ul></br>
-*Ainda a ser implementado!---Comecei a estudar sobre microsserviços, então está algo bem amador
+*Ainda a ser implementado!
+</br>---Comecei a estudar sobre microsserviços, então está algo bem amador
 <h4>Projeto em construção!</h4>
  
