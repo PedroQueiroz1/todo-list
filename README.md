@@ -29,5 +29,5 @@ Esse projeto faz uso das seguintes tecnologias:</br>
   <li>Api-gateway
     <ul></br>
 </br>---Comecei a estudar sobre microsserviços, então está algo bem amador
-<h4>Projeto em construção!</h4>
+<h4>Pretendo excluir esse projeto e iniciar outro com outro tema em breve, fazendo melhor uso de microsserviços</h4>
  
